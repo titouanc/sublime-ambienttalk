@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>foreach: { 
+	$0 
+} in: ${1:table};</string>
+	<key>name</key>
+	<string>foreach: in:</string>
+	<key>scope</key>
+	<string>source.ambienttalk2</string>
+	<key>tabTrigger</key>
+	<string>fore</string>
+	<key>uuid</key>
+	<string>2E739275-5F5D-4AAE-BA47-37547562A506</string>
+</dict>
+</plist>

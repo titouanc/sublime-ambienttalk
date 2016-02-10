@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>when: ${1:condition} becomes: { |${2:value}|
+	$0
+} catch: ${3:Type} using: {
+	$4
+};</string>
+	<key>name</key>
+	<string>when: becomes: catch:</string>
+	<key>scope</key>
+	<string>source.ambienttalk2</string>
+	<key>tabTrigger</key>
+	<string>wbc</string>
+	<key>uuid</key>
+	<string>B207C4B3-F031-4F46-94F0-78264337475B</string>
+</dict>
+</plist>

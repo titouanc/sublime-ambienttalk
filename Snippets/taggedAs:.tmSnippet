@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>taggedAs: [${1:tag}]</string>
+	<key>name</key>
+	<string>taggedAs:</string>
+	<key>scope</key>
+	<string>source.ambienttalk2</string>
+	<key>tabTrigger</key>
+	<string>sW</string>
+	<key>uuid</key>
+	<string>92F4B4A7-F9F3-4525-85C5-694752C1C84A</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:name} ( ${2:arglist} ) {
+	$0
+};
+</string>
+	<key>name</key>
+	<string>Canonical Method</string>
+	<key>scope</key>
+	<string>source.ambienttalk2</string>
+	<key>tabTrigger</key>
+	<string>def</string>
+	<key>uuid</key>
+	<string>C850A43B-F7B7-4325-8E04-DCB43145420D</string>
+</dict>
+</plist>

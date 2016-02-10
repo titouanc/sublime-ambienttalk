@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${TM_SELECTED_TEXT/\A(\s*).*/$1/m}try: {
+${TM_SELECTED_TEXT/^.+$/\t$0/g}${TM_SELECTED_TEXT/\A(\s*).*/$1/m}}
+${TM_SELECTED_TEXT/\A(\s*).*/$1/m}catch: Exception using: { | e |
+${TM_SELECTED_TEXT/\A(\s*).*/$1/m}	echo: e.message();
+${TM_SELECTED_TEXT/\A(\s*).*/$1/m}}
+</string>
+	<key>keyEquivalent</key>
+	<string>^W</string>
+	<key>name</key>
+	<string>Wrap Selection in Try/Catch</string>
+	<key>scope</key>
+	<string>source.ambienttalk2</string>
+	<key>uuid</key>
+	<string>B5E4EAF7-A0E4-481E-BC93-6E9068B54CF9</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mirroredBy: ${1:customMirror}</string>
+	<key>name</key>
+	<string>mirroredBy:</string>
+	<key>scope</key>
+	<string>source.ambienttalk2</string>
+	<key>tabTrigger</key>
+	<string>mB</string>
+	<key>uuid</key>
+	<string>D5B1A859-49A0-42B2-812D-7BAE9C3D0D88</string>
+</dict>
+</plist>
