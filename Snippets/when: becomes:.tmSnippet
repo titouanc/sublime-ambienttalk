@@ -11,7 +11,7 @@
 	<key>scope</key>
 	<string>source.ambienttalk2</string>
 	<key>tabTrigger</key>
-	<string>wb</string>
+	<string>when</string>
 	<key>uuid</key>
 	<string>48E026AD-9AEF-4FA1-B6E3-EE22B8F0F79C</string>
 </dict>
