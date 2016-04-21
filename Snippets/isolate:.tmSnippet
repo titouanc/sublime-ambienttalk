@@ -4,6 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>isolate: { 
+	def init(){
+		
+	};
 	$0 
 };</string>
 	<key>name</key>
