@@ -20,7 +20,7 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>(\s*deftype)\s+([a-zA-Z_?]*)?\s*(&lt;:)?</string>
+			<string>(\s*deftype)\s+([a-zA-Z_?][a-zA-Z0-9_?]*)?\s*(&lt;:)?</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -66,7 +66,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\s*def)\s+([a-zA-Z0-9_?]*)?\s*(:=|;)</string>
+			<string>(\s*def)\s+([a-zA-Z_?][a-zA-Z0-9_?]*)?\s*(:=|;)</string>
 			<key>name</key>
 			<string>meta.definition.variable</string>
 		</dict>
@@ -126,7 +126,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(\s*def)\s+([a-zA-Z_?]*)\[</string>
+			<string>(\s*def)\s+([a-zA-Z_?][a-zA-Z0-9_?]*)\[</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -159,7 +159,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(@[a-zA-Z_?]*)</string>
+			<string>(@[a-zA-Z_?][a-zA-Z0-9_?]*)</string>
 			<key>name</key>
 			<string>meta.arguments.var-args.ambienttalk</string>
 		</dict>
@@ -303,12 +303,12 @@
 				</dict>
 			</dict>
 			<key>matches</key>
-			<string>(@[a-zA-Z_?]+|[a-zA-Z_?]+)</string>
+			<string>(@[a-zA-Z_?][a-zA-Z0-9_?]*|[a-zA-Z_?][a-zA-Z0-9_?]*)</string>
 		</dict>
 		<key>defCanonical</key>
 		<dict>
 			<key>begin</key>
-			<string>([a-zA-Z_?]+)\(</string>
+			<string>([a-zA-Z_?][a-zA-Z0-9_?]*)\(</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -338,7 +338,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>([a-zA-Z_?]+:)</string>
+			<string>([a-zA-Z_?][a-zA-Z0-9_?]*+:)</string>
 		</dict>
 	</dict>
 	<key>scopeName</key>
