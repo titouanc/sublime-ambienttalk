@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>content</key>
+    <string>object: {
+    deftype ${1:ExportedType};
+
+    def localInterface := object: {
+
+    };
+
+    def remoteInterface := object: {
+
+    };
+
+    def discoverPeer(other){
+
+    };
+
+    def goOnline(){
+        export: remoteInterface as: ${1:ExportedType};
+        whenever: ${1:ExportedType} discovered: &discoverPeer;
+    };
+};</string>
+    <key>name</key>
+    <string>Application object</string>
+    <key>scope</key>
+    <string>source.ambienttalk2</string>
+    <key>tabTrigger</key>
+    <string>export</string>
+    <key>uuid</key>
+    <string>13C17D4A-A7ED-4B57-BF30-924FAED8B06C</string>
+</dict>
+</plist>

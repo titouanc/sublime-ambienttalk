@@ -14,7 +14,7 @@
 	<key>scope</key>
 	<string>source.ambienttalk2</string>
 	<key>tabTrigger</key>
-	<string>iso</string>
+	<string>isolate</string>
 	<key>uuid</key>
 	<string>13C17D4A-A7ED-4B57-BF30-924FAED8B06C</string>
 </dict>
