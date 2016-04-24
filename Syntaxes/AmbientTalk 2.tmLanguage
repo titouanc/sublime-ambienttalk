@@ -231,7 +231,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(object|extend|with|share|clone|taggedAs|is|tagsOf)+:</string>
+			<string>(object|isolate|actor|extend|with|share|clone|taggedAs|is|tagsOf)+:</string>
 			<key>name</key>
 			<string>keyword.objects.ambienttalk</string>
 		</dict>
